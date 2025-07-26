@@ -61,6 +61,6 @@ Experiment with other CNN architectures.
 Implement cross-validation for more robust evaluation.
 
 Contact
-Name: GADITY231
+Name: G ADITYA
 
 Email: galinkiaditya231@gmail.com
