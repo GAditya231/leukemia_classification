@@ -47,7 +47,7 @@ False Negatives (Predicted HEM, but was ALL): 0
 True Positives (Correctly predicted ALL): 1455
 
 
-![Model confusion_matrix Plot](confusion_matrix_heatmap.plot.png)
+![Model confusion_matrix Plot](confusion_matrix_heatmap.png)
 
  ![Model Accuracy Plot](model_accuracy_plot.png)
  
