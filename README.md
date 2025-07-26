@@ -21,25 +21,6 @@ The model is trained on the C-NMC Leukemia dataset, containing ALL and HEM blood
 
 Dataset Source: Kaggle - Leukemia Classification (C-NMC)
 
-Setup and How to Run
-Clone the repository:
-
-Bash
-
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
-Install dependencies:
-
-Bash
-
-pip install numpy pandas opencv-python tensorflow scikit-learn matplotlib
-Download the dataset: Obtain the C-NMC_Leukemia dataset from the Kaggle link above and place it in your project's root directory.
-
-Run the script:
-
-Bash
-
-python resnet50-leukemiaclassification.ipynb # Or open and run in a Jupyter Notebook
 Results
 The model effectively classifies leukemia images, achieving a test accuracy of approximately 99.91%.
 
@@ -54,13 +35,8 @@ Classification Report:
            1       1.00      1.00      1.00      1455
 
     accuracy                           1.00      2133
-   macro avg       1.00      1.00      1.00      2133
-weighted avg       1.00      1.00      1.00      2133
+   
 Confusion Matrix:
-
-[[ 672    6]
- [   0 1455]]
-Confusion Matrix Details:
 
 True Negatives (Correctly predicted HEM): 672
 
@@ -70,9 +46,12 @@ False Negatives (Predicted HEM, but was ALL): 0
 
 True Positives (Correctly predicted ALL): 1455
 
- ![Model Accuracy Plot](accuracy_plot.png)
+
+![Model confusion_matrix Plot](confusion_matrix_heatmap.plot.png)
+
+ ![Model Accuracy Plot](model_accuracy_plot.png)
  
- ![Model Loss Plot](loss_plot.png) if you plan to save them as images.)
+ ![Model Loss Plot](model_loss_plot.png)
 
 Future Work
 Explore advanced data augmentation techniques.
